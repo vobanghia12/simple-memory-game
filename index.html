@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>Light and Sound Memory Game</h1>
+    <p>Welcome to the game!Repeat back the pattern by pressing buttons</p>
+    <!--Start Stop button-->
+    <!--onclick to add eventlistener to button -->
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+
+    <!--game play buttons-->
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+      >
+        <img
+          id = "image1"
+          class="hidden"
+          src="https://cdn.glitch.global/117121b1-0e90-4ee2-859b-ee75a9da5549/Microsoft_logo.svg.png?v=1650674015875"
+        />
+      </button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+      >
+        <img
+          id = "image2"
+          class="hidden"
+          src="https://cdn.glitch.global/117121b1-0e90-4ee2-859b-ee75a9da5549/saleforce.png?v=1650674017877"
+        />
+      </button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+      >
+        <img
+          id = "image3"
+          class="hidden"
+          src="https://cdn.glitch.global/117121b1-0e90-4ee2-859b-ee75a9da5549/amazon.png?v=1650674024630"
+        />
+      </button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+      >
+        <img
+          id = "image4"
+          class="hidden"
+          src="https://cdn.glitch.global/117121b1-0e90-4ee2-859b-ee75a9da5549/google-symbol.jpeg?v=1650674022481"
+        />
+      </button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+      >
+        <img
+          id = "image5"
+          class="hidden"
+          src="https://cdn.glitch.global/117121b1-0e90-4ee2-859b-ee75a9da5549/meta.png?v=1650674028661"
+        />
+      </button>
+    </div>
+  </body>
+</html>

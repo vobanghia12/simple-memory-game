@@ -1,0 +1,84 @@
+body {
+  background-color: slategrey;
+  color: white;
+  font-family: verdana, arial, san-serif;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+}
+
+/*style general buttons 
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/*choose all of buttons are child of gameButtonArea*/
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+  overflow: visible;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#gameButtonArea > button img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+#button1:active,
+#button1.lit {
+  background: url("https://cdn.glitch.global/117121b1-0e90-4ee2-859b-ee75a9da5549/Microsoft_logo.svg.png?v=1650674015875");
+  background-size: contain;
+}
+
+#button2 {
+  background: lightblue;
+}
+#button2:active,
+#button2.lit {
+  background: blue;
+  background: url("https://cdn.glitch.global/117121b1-0e90-4ee2-859b-ee75a9da5549/saleforce.png?v=1650674017877");
+  background-size: contain;
+}
+
+#button3 {
+  background: pink;
+  
+}
+
+#button3:active,
+#button3.lit {
+  background: url("https://cdn.glitch.global/117121b1-0e90-4ee2-859b-ee75a9da5549/amazon.png?v=1650674024630");
+  background-size: contain;
+}
+
+#button4 {
+  background: lightyellow;
+}
+#button4:active,
+#button4.lit {
+  background: yellow;
+  background: url("https://cdn.glitch.global/117121b1-0e90-4ee2-859b-ee75a9da5549/google-symbol.jpeg?v=1650674022481");
+  background-size: contain;
+}
+
+#button5 {
+  background: lightblack;
+}
+#button5:active,
+#button5.lit {
+  background: black;
+  background: url("https://cdn.glitch.global/117121b1-0e90-4ee2-859b-ee75a9da5549/meta.png?v=1650674028661");
+  background-size: contain;
+}
+
