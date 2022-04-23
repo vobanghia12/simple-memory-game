@@ -68,12 +68,13 @@ Firstly, I need to refactor my code, add more comments and change name varible, 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording]
+
 
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Nghia Vo
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
